@@ -37,7 +37,7 @@ public class AppDivina extends Application  {
 		
 		
 		saludoLabel = new Label();
-		saludoLabel.setText("Introduce un numero del 0 al 100");
+		saludoLabel.setText("Introduce un numero del 1 al 100");
 		saludoLabel.setTranslateY(-80);
 		
 		
@@ -78,7 +78,7 @@ public class AppDivina extends Application  {
 			alert.setTitle("AdivinApp");
 			alert.setHeaderText("Has fallado");
 			if(numero>Adiviname) {
-			alert.setContentText("El numero es mas pequeño que " +numero);
+			alert.setContentText("El numero es mas pequeÃ±o que " +numero);
 			alert.showAndWait();
 			}
 			else {
